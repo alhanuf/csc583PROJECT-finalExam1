@@ -9,12 +9,17 @@ You can install it from https://www.apachefriends.org/index.html and follow the 
 Download visual studio code from https://code.visualstudio.com/ to be able to see the code
 
 then clone the project folder and move under "C:\xampp\htdocs" this location. import your database table "enquery.sql"and "admin veiw.sql" in database ,the database name should be "toro"
+
+
+and follow the steps: 
+
+
 1.the project have start from index.html
 
 2.open index.html and open xampp server and run mysql Admin.
 
 
-3.run your project on locahost "http://localhost/projcet/index.html" like this.
+3.run the project on locahost "http://localhost/projcet/index.html" like this.
 
 
 4.open after.php page and check here the database name and password are same with your databse .
@@ -35,9 +40,16 @@ then clone the project folder and move under "C:\xampp\htdocs" this location. im
 11. it should direct u to http://localhost/project/info.php You will see all the list of all signed in users in the database.
 
 
+
+
 So, 1.just run the project in the browser ,here the enquery send to the database. 
 
 2. on The admin page ,there have some page link,and information page of all the users.
+
+
+
+
+
 
 
 Architecture discussion :
@@ -54,6 +66,10 @@ HTML, PHP, javascript: API and front-end
 First, Index Page:This is the index page here the user fill the enquery form then the data goes into the database. Admin Log form:Admin login form for the admin who get the access the complete portal . Admin Page:This is the admin page here the admin access all the portal .
 
 I used the bootstrap and media query for the responsive designing and HTML and CSS for web design. I used also Jquery for special effacts and javascipt for validation.
+
+
+
+
 
 plan of action :
 
