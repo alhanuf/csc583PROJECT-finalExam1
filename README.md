@@ -25,7 +25,10 @@ then clone the project folder and move under "C:\xampp\htdocs" this location. im
 So, 1.just run the project in the browser ,here the enquery send to the database. 
 2. on The admin page ,there have some page link,and information page of all the users.
 
+
 Architecture discussion :
+
+
 MySql: database XAMMP: server PHP: Connect the server with the database HTML, PHP, javascript: API and front-end
 
 First, Index Page:This is the index page here the user fill the enquery form then the data goes into the database. Admin Log form:Admin login form for the admin who get the access the complete portal . Admin Page:This is the admin page here the admin access all the portal .
